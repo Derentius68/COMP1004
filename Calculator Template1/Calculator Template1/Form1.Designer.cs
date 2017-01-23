@@ -88,8 +88,8 @@
             this.CalculatorTableLayout.Controls.Add(this.SubtractButton, 3, 2);
             this.CalculatorTableLayout.Controls.Add(this.AdditionButton, 3, 3);
             this.CalculatorTableLayout.Controls.Add(this.EqualButton, 3, 4);
-            this.CalculatorTableLayout.Controls.Add(this.ClearButton, 2, 0);
-            this.CalculatorTableLayout.Controls.Add(this.ClearEntryButton, 1, 0);
+            this.CalculatorTableLayout.Controls.Add(this.ClearEntryButton, 2, 0);
+            this.CalculatorTableLayout.Controls.Add(this.ClearButton, 1, 0);
             this.CalculatorTableLayout.Location = new System.Drawing.Point(1, 147);
             this.CalculatorTableLayout.Name = "CalculatorTableLayout";
             this.CalculatorTableLayout.RowCount = 5;
@@ -274,7 +274,7 @@
             // ClearButton
             // 
             this.ClearButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ClearButton.Location = new System.Drawing.Point(153, 3);
+            this.ClearButton.Location = new System.Drawing.Point(78, 3);
             this.ClearButton.Name = "ClearButton";
             this.ClearButton.Size = new System.Drawing.Size(69, 69);
             this.ClearButton.TabIndex = 25;
@@ -285,7 +285,7 @@
             // ClearEntryButton
             // 
             this.ClearEntryButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ClearEntryButton.Location = new System.Drawing.Point(78, 3);
+            this.ClearEntryButton.Location = new System.Drawing.Point(153, 3);
             this.ClearEntryButton.Name = "ClearEntryButton";
             this.ClearEntryButton.Size = new System.Drawing.Size(69, 69);
             this.ClearEntryButton.TabIndex = 17;
