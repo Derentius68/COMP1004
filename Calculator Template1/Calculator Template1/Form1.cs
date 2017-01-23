@@ -33,7 +33,7 @@ namespace Calculator_Template1
         /// <summary>
         /// This method clears the calculator app and resets the variables
         /// </summary>
-        private void _clearCalculator();
+        private void _clearCalculator()
         {
             this._operand1 = "";
             this._operand2 = "";
