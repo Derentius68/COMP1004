@@ -48,7 +48,7 @@ namespace Calculator_Template1
         /// <param name="sender"></param>
         /// <param name="e"></param>
 
-        private void CalculatorButton_Click(object sender, EventArgs e)
+        private void _calculatorButton_Click(object sender, EventArgs e)
         {
             Button CalculatorButton = sender as Button;
 
